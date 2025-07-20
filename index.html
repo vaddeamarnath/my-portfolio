@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <style>
+    @media (max-width: 600px) {
+      .hero-content {
+        padding: 1.2rem 0.5rem !important;
+      }
+      .hero-title, .hero-name {
+        font-size: 1.3rem !important;
+      }
+      .hero-desc, .highlight {
+        font-size: 1rem !important;
+      }
+      .cta-button {
+        font-size: 1rem !important;
+        padding: 0.7rem 1.2rem !important;
+      }
+      .profile-image {
+        width: 90px !important;
+        height: 90px !important;
+      }
+      .skills-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.2rem !important;
+      }
+      .skill-item {
+        padding: 1rem !important;
+        font-size: 1rem !important;
+      }
+      .navbar {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 0.7rem 1rem !important;
+      }
+      .nav-links {
+        flex-direction: column !important;
+        gap: 0.7rem !important;
+      }
+      .nav-links a {
+        font-size: 1.1rem !important;
+        padding: 0.5rem 0 !important;
+      }
+      #connect-modal > div, #contact-modal > div {
+        padding: 1.2rem 0.5rem !important;
+        max-width: 98vw !important;
+        min-width: 0 !important;
+        font-size: 1rem !important;
+      }
+      #connect-modal h2, #contact-modal h2 {
+        font-size: 1.3rem !important;
+      }
+      #connect-modal a, #contact-modal a {
+        font-size: 2rem !important;
+      }
+      #connect-modal button, #contact-modal button {
+        font-size: 1rem !important;
+        padding: 0.6rem 1.2rem !important;
+      }
+      .social-links {
+        gap: 1.2rem !important;
+      }
+      .social-links a {
+        font-size: 1.5rem !important;
+      }
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar">
+            <a href="#" home="logo">AmarNath</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="home-link">home</a></li>
+                <li><a href="#skills" class="skills-link">skills</a></li>
+                <li><a href="#projects" class="projects-link">Projects</a></li>
+                <li><a href="#contact" class="contact-link">Contact</a></li>
+            </ul>
+    </nav>
+    <!--hero section-->
+    <section id="home"class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">AmarNath</h1>
+            <h2 class="hero-title">Full-Stack Developer</h2>
+            <p class="hero-desc">I am currently a final-year B.Tech (ECE) student with a passion for web development. I specialize in building modern, responsive websites and digital experiences that combine creativity with technology. My strengths include both front-end and back-end development, as well as UI/UX design. I am dedicated to continuous learning and improvement, always striving to deliver high-quality, user-friendly solutions.</p>
+            <p class="highlight">Let's create something amazing together!</p>
+            <button id="connect-btn" class="cta-button" type="button">Let's connect</button>
+    <!-- Connect Modal -->
+    <div id="connect-modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);z-index:3000;align-items:center;justify-content:center;">
+      <div style="background: linear-gradient(135deg, #232946 60%, #1a1a2e 100%); padding:2rem 2.5rem; border-radius:16px; max-width:90vw; max-height:90vh; box-shadow:0 8px 40px #2196f3, 0 0 60px #00bcd4; position:relative; text-align:center; border: 2px solid #2196f3;">
+        <h2 style="background: linear-gradient(90deg, #ff9800 10%, #ff5e62 90%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; font-size:2.2rem; margin-bottom:1rem; text-shadow: 0 0 20px #ff9800, 0 0 40px #ff5e62;">Connect with Me</h2>
+        <div style="display:flex;justify-content:center;gap:2.5rem;margin:2rem 0;">
+          <a href="https://github.com/yourusername" target="_blank" style="font-size:2.5rem;color:#2196f3;text-shadow:0 0 18px #2196f3,0 0 32px #00bcd4;text-decoration:none;"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/yourusername" target="_blank" style="font-size:2.5rem;color:#e1306c;text-shadow:0 0 18px #e1306c,0 0 32px #fd1d1d;text-decoration:none;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com/yourusername" target="_blank" style="font-size:2.5rem;color:#1877f3;text-shadow:0 0 18px #1877f3,0 0 32px #00bcd4;text-decoration:none;"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <button id="close-connect-modal" style="margin-top:1.5rem;padding:0.7rem 2rem;font-size:1rem;background:linear-gradient(90deg,#2196f3,#00bcd4);color:#fff;border:none;border-radius:8px;cursor:pointer;box-shadow:0 0 10px #2196f3;">Close</button>
+      </div>
+    </div>
+    <script>
+      document.getElementById('connect-btn').addEventListener('click', function() {
+        document.getElementById('connect-modal').style.display = 'flex';
+      });
+      document.getElementById('close-connect-modal').addEventListener('click', function() {
+        document.getElementById('connect-modal').style.display = 'none';
+      });
+      document.getElementById('connect-modal').addEventListener('click', function(e) {
+        if (e.target === this) {
+          this.style.display = 'none';
+        }
+      });
+    </script>
+        </div>
+        <div class="hero-image">
+            <img src="amar.jpg" alt="profile" class="profile-image">
+        </div>
+    </section>
+        <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>React, Vue, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, MongoDB, SQL</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, User Testing</p>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <p>&copy; 2025 AsterAmar. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);z-index:3000;align-items:center;justify-content:center;">
+      <div style="background: linear-gradient(135deg, #fff 60%, #e1bee7 100%); padding:2rem 2.5rem; border-radius:16px; max-width:90vw; max-height:90vh; box-shadow:0 8px 40px #a259f7, 0 0 60px #d500f9; position:relative; text-align:center; border: 2px solid #a259f7;">
+        <h2 style="background: linear-gradient(90deg, #a259f7 20%, #d500f9 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; font-size:2.2rem; margin-bottom:1rem; text-shadow: 0 0 20px #a259f7, 0 0 40px #d500f9;">Contact Information</h2>
+        <p style="color:#2196f3;font-size:1.1rem;margin-bottom:0.5rem;text-shadow:0 0 10px #2196f3;">Email: <a href='mailto:vaddeamarnath200412@email.com' style='color:#d500f9;text-shadow:0 0 10px #d500f9;'>vaddeamarnath200412@email.com</a></p>
+        <p style="color:#43a047;font-size:1.1rem;margin-bottom:0.5rem;text-shadow:0 0 10px #43a047;">Phone: <a href='tel:+91 9518062004' style='color:#ff9800;text-shadow:0 0 10px #ff9800;'>+91 9518062004</a></p>
+        <p style="color:#3f51b5;font-size:1.1rem;text-shadow:0 0 10px #3f51b5;">Location: <span style='color:#00bcd4;text-shadow:0 0 10px #00bcd4;'>Guntakal, India</span></p>
+        <button id="close-contact-modal" style="margin-top:1.5rem;padding:0.7rem 2rem;font-size:1rem;background:linear-gradient(90deg,#a259f7,#d500f9);color:#fff;border:none;border-radius:8px;cursor:pointer;box-shadow:0 0 10px #a259f7;">Close</button>
+      </div>
+    </div>
+
+    <script>
+      document.querySelector('.contact-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('contact-modal').style.display = 'flex';
+      });
+      document.getElementById('close-contact-modal').addEventListener('click', function() {
+        document.getElementById('contact-modal').style.display = 'none';
+      });
+      // Optional: close modal when clicking outside the modal box
+      document.getElementById('contact-modal').addEventListener('click', function(e) {
+        if (e.target === this) {
+          this.style.display = 'none';
+        }
+      });
+    </script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

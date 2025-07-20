@@ -1,0 +1,433 @@
+.skills h2 {
+    color: #a259f7;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-shadow: 0 0 10px #a259f7, 0 0 20px #d500f9;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.hero-name {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2196f3;
+    text-shadow: 0 0 30px #2196f3, 0 0 60px #00bcd4;
+}
+.skill-item h3 {
+    color: #2196f3;
+    text-shadow: 0 0 10px #2196f3, 0 0 20px #00bcd4;
+}
+.skill-item:first-child h3 {
+    background: linear-gradient(90deg, #2196f3 20%, #00bcd4 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #2196f3, 0 0 20px #00bcd4;
+}
+.skill-item.frontend-box {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    border: 2px solid #2196f3;
+    box-shadow: 0 0 30px #2196f333;
+}
+.hero-name {
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    color: #2196f3;
+    text-shadow: 0 0 30px #2196f3, 0 0 60px #00bcd4, 0 0 90px #3f51b5;
+    letter-spacing: 2px;
+}
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #a259f7;
+    text-shadow: 0 0 10px #a259f7, 0 0 20px #d500f9;
+    text-align: center;
+}
+.hero-desc {
+    color: #009688;
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    text-shadow: 0 0 8px #00968844;
+}
+.highlight {
+    color: #ff9800;
+    font-weight: 600;
+    text-shadow: 0 0 8px #ff980088;
+    text-align: center;
+}
+.cta-button {
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0 0 10px #2ecc71;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    display: inline-block;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+.cta-button:hover {
+    background: linear-gradient(90deg, #27ae60, #2ecc71);
+    box-shadow: 0 0 20px #27ae60;
+}
+.social-links .fa-github {
+    background: linear-gradient(135deg, #333 40%, #6e5494 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #333, 0 0 20px #6e5494;
+}
+.social-links .fa-whatsapp {
+    background: linear-gradient(135deg, #25d366 40%, #128c7e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #25d366, 0 0 20px #128c7e;
+}
+.social-links .fa-instagram {
+    background: linear-gradient(135deg, #fd5d47 20%, #fcb045 40%, #e1306c 60%, #833ab4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #fd5d47, 0 0 20px #833ab4;
+}
+.social-links .fa-facebook {
+    background: linear-gradient(135deg, #1877f3 40%, #42a5f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #1877f3, 0 0 20px #42a5f5;
+}
+.skill-item .fa-server {
+    background: linear-gradient(90deg, #36d1c4 20%, #1e3c72 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #36d1c4, 0 0 20px #1e3c72, 0 0 30px #36d1c4;
+}
+.skill-item .fa-paintbrush {
+    background: linear-gradient(90deg, #f7971e 20%, #ffd200 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #f7971e, 0 0 20px #ffd200, 0 0 30px #f7971e;
+}
+.skill-item .fa-code {
+    background: linear-gradient(90deg, #ff512f 20%, #dd2476 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px #ff512f, 0 0 20px #dd2476, 0 0 30px #ff512f;
+}
+.nav-links a.skills-link {
+    background: linear-gradient(90deg, #ff9800 20%, #ffc107 50%, #fff176 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    text-shadow: 0 0 10px #ff9800, 0 0 20px #ffc107, 0 0 30px #fff176;
+}
+.nav-links a.contact-link {
+    background: linear-gradient(90deg, #00bcd4 20%, #3f51b5 50%, #e040fb 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #3f51b5, 0 0 30px #e040fb;
+}
+.nav-links a.home-link, .nav-links a.projects-link {
+    background: linear-gradient(90deg, #2ecc71 20%, #27ae60 50%, #00ffd0 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    text-shadow: 0 0 10px #2ecc71, 0 0 20px #27ae60, 0 0 30px #00ffd0;
+}
+footer p {
+    background: linear-gradient(90deg, #2ecc71 20%, #27ae60 50%, #00ffd0 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    text-shadow: 0 0 10px #2ecc71, 0 0 20px #27ae60, 0 0 30px #00ffd0;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+   
+:root {
+    --dark-bg: #0a0a0a;
+    --darker-bg: #050505;
+    --accent: #2ecc71:
+    --accent-glow: rgba(46, 204, 113, 0.4);
+    --text: #ffffff;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/*navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(10, 10, 10,0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #2ecc71 20%, #27ae60 50%, #00ffd0 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    position: relative;
+    padding-left: 2.5rem;
+    text-shadow: 0 0 20px #2ecc71, 0 0 40px #27ae60, 0 0 60px #00ffd0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a{
+   color: var(--text);
+   text-decoration: none;
+   font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links a::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12% 5%;
+    background: radial-gradient(circle at 75% 30%, var
+    (--accent-glow) 0%,transparent 30%);
+}
+
+.hero-content{
+    flex: 1;
+    padding-right: 5rem;
+}
+
+.hero_image {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent);
+    box-shadow: 0 0 50px var(--accent-glow);
+    animation: float 3s ease-in-out infinite;
+    filter: grayscale(0.2) contrast(1,1);
+    display: block;
+    margin: 0 auto;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #2ecc71 20%, #27ae60 50%, #00ffd0 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px #2ecc71, 0 0 40px #27ae60, 0 0 60px #00ffd0;
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 600px;
+}
+
+.cta-button p {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(45deg, var(--accent), #27ae60);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.skills {
+    padding: 5rem 5%;
+    background: var(--darker-bg);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3.5rem;
+    margin-top: 3rem;
+}
+
+
+.skill-item {
+    padding: 2rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 0 40px 10px #2ecc71, 0 0 80px 20px #27ae60;
+}
+
+.skill-grid i {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: var(--darker-bg);
+    padding: 3rem 5%;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links a {
+    color: var(--text);
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+.social-links a:hover {
+    color: var(--accent);
+    transform: translateY(-3px);
+}
+
+.hero {
+    flex-direction: row;
+    text-align: left;
+    padding-top: 8rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 3rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ved incorrect override */
+
+/* Ensure hero-image is centered and responsive */
+.hero-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .hero-content {
+    padding-right: 0;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .hero-image {
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
